@@ -624,7 +624,11 @@ header {
     }
 }
 
-
+@media(min-width:1025px)and (max-width:1900px){
+    .menu1_text span{
+        font-size: calc(8px + 10 * (100vw / 1900));
+    }
+}
 @media (max-width: 1440px){
     .block1,.block2{
         height:600px;
